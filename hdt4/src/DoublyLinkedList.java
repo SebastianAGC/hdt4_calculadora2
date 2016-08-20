@@ -3,15 +3,30 @@ import java.util.Iterator;
 
 /**
  *
- * @author Rodrigo Arriaza y Sebastian Galindo
+ * @author Rodrigo Arriaza y Sebastian Galindo código tomado de Blackboard
  * @param <E> tipo de dato
  */
 public class DoublyLinkedList<E> extends AbstractList<E>
 {
+
+    /**
+     *
+     */
     protected int count;
+
+    /**
+     *
+     */
     protected DoublyLinkedNode<E> head;
+
+    /**
+     *
+     */
     protected DoublyLinkedNode<E> tail;
    
+    /**
+     *
+     */
     public DoublyLinkedList()
 // post: constructs an empty list
 {
@@ -144,19 +159,39 @@ public class DoublyLinkedList<E> extends AbstractList<E>
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    /**
+     *
+     * @param i
+     * @param o
+     * @return
+     */
     @Override
     public E set(int i, E o) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    /**
+     *
+     * @param i
+     * @param o
+     */
     @Override
     public void add(int i, E o) {    }
 
+    /**
+     *
+     * @param i
+     * @return
+     */
     @Override
     public E remove(int i) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public Iterator<E> iterator() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

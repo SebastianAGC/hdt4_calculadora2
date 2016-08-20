@@ -20,6 +20,11 @@ public class calculadora {
      
     }
     private static calculadora calculadoraInstance = new calculadora();
+
+    /**
+     *
+     * @return
+     */
     public static calculadora getInstance (){
         return calculadoraInstance;
     }
@@ -29,7 +34,7 @@ public class calculadora {
     //Funcion para evaluar el postfix
 
     /**
-     *
+     *Funcion que realiza la conversion y evaluacion de la cadena con el calculo POSTFIX
      * @param s ecuacion postfix a evaluar
      * @param stack el tipo de Estructura a utilizar
      * @return Resultado en double

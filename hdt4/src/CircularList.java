@@ -2,8 +2,8 @@
 import java.util.Iterator;
 
 /**
- *
- * @author Rodrigo Arriaza y Sebastian Galindo
+ * 
+ * @author Rodrigo Arriaza y Sebastian Galindo código tomado de Blackboard
  * @param <E> que es el tipo de dato
  */
 public class CircularList<E> extends AbstractList<E>{

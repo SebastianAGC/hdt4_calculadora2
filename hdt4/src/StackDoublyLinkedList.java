@@ -7,11 +7,18 @@
 /**
  *
  * @author Rodrigo Arriaza y Sebastián Galindo
+ * @param <E>
  */
 public class StackDoublyLinkedList<E> implements Stack<E> {
 
+    /**
+     *
+     */
     protected DoublyLinkedList<E> data;
     
+    /**
+     *
+     */
     public StackDoublyLinkedList (){
         data = new DoublyLinkedList<E>();
     }

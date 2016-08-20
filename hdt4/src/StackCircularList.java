@@ -7,11 +7,18 @@
 /**
  *
  * @author Rodrigo Arriaza y Sebastián Galindo
+ * @param <E>
  */
 public class StackCircularList<E> implements Stack<E> {
 
+    /**
+     *
+     */
     protected CircularList<E> data;
     
+    /**
+     *
+     */
     public StackCircularList (){
         data = new CircularList<E>();
     }

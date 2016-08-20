@@ -1,7 +1,7 @@
 
 
 /**
- *
+ * Clase Abstracta para las Listas
  * @author Rodrigo Arriaza y Sebastián Galindo.
  * @param <E> el tipo de dato
  */

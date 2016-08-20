@@ -25,6 +25,10 @@ public class main {
     static Stack elstack = null;
     static Scanner userInput = new Scanner(System.in);
 
+    /**
+     *Funcion que pide al usuario que tipo de datos desea utilizar si Stacks o Listas, y si son listas
+     * que tipo de lista desea utilizar
+     */
     public static void pedir(){
         System.out.print("¿Que estructura de datos desea probar? (Stack/List)");
         if (userInput.hasNextLine()){
@@ -35,7 +39,7 @@ public class main {
         }
         
         if (tipoFabrica.equals("Stack")){
-            System.out.print("¿Que tipo quiere de Stack desea utilizar? (ArrayList/Vector)");
+            System.out.print("¿Que tipo de Stack desea utilizar? (ArrayList/Vector)");
             if (userInput.hasNextLine()){
                 String tipoStack = userInput.nextLine();
                 if (tipoStack.equals("Vector") || tipoStack.equals("ArrayList")){
@@ -44,7 +48,7 @@ public class main {
             }
         } else {
             if (tipoFabrica.equals("List")){
-                System.out.print("Que tipo quiere? (Single/Double/Circular)");
+                System.out.print("¿Que tipo de Lista desea utilizar? (Single/Double/Circular)");
                 if (userInput.hasNextLine()){
                     String tipoLista = userInput.nextLine();
                     if (tipoLista.equals("Single") || tipoLista.equals("Double") || tipoLista.equals("Circular")){

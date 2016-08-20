@@ -5,7 +5,7 @@
  */
 
 /**
- *
+ * Factory que decide si se utilizaran listas o Stacks
  * @author Rodrigo Arriaza y Sebastián Galindo
  */
 public class Factory {

@@ -11,7 +11,7 @@
 public class ListFactory extends AbstractFactory {
  
     /**
-     *
+     * Factory que decide si el tipo de lista a utilizar sera de tipo SIngle, DOuble o Circular.
      * @param <E>
      * @param listType
      * @return una lista como un stack

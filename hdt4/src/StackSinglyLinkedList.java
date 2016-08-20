@@ -5,13 +5,20 @@
  */
 
 /**
- *
+ * Clase Stack para SinglyLinkedList que implementa  Stack
  * @author Rodrigo Arriaza y Sebastian Galindo
+ * @param <E>
  */
 public class StackSinglyLinkedList<E> implements Stack<E> {
 
+    /**
+     *
+     */
     protected SinglyLinkedList<E> data;
     
+    /**
+     *
+     */
     public StackSinglyLinkedList (){
         data = new SinglyLinkedList<E>();
     }

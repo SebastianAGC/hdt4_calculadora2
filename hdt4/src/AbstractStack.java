@@ -5,7 +5,7 @@
  */
 
 /**
- *
+ *  Clase abstracta para los Stacks
  * @author Rodrigo Arriaza y Sebastián Galindo;
  * @param <E> el tipo de dato que se va a usar
  */
